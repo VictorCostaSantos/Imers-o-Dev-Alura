@@ -1,0 +1,167 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://c.wallhere.com/photos/81/13/neon_The_Thinker-50568.png!d");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 99vh;
+    overflow: hidden;
+}
+
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body>img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 350px;
+}
+
+#container{
+    background-color: #ea00ff34;
+    align-items: center;
+    text-align: center;
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+}
+
+#bem-vindo{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#bem-vindo>p>span {
+    background-color: #ffffff;
+}
+
+#bem-vindo>p>span::after {
+    content: "|";
+    opacity: 1;
+    animation: pisca 0.7s infinite;
+}
+
+@keyframes pisca {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+#bem-vindo>input {
+    color: var(--letras-principal);
+    background-color: #d0ff00;
+    border-radius: 5px;
+    width: 250px;
+    height: 70px;
+    font-size: 200%;
+    margin: auto;
+    align-items: center;
+    cursor: pointer;
+    text-shadow: 10px 20px 10px rgb(255, 0, 0);
+    background: rgb(255, 0, 255);
+    box-shadow: 0 8px 2px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.Digite{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.removerBotao {
+    display: none !important;
+}
+
+#questao {
+    display: none;
+}
+
+.comecou {
+    display: block !important;
+    margin-top: 20vh;
+}
+
+#campo-resposta {
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.comecou>div>div>input {
+    height: 30px;
+    text-align: center;
+    appearance: textfield;
+    background-color: #ffffff;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-shadow: 10px 20px 10px rgb(255, 0, 0);
+    background: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+#texto {
+    background-color: #0dff00;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 5vh;
+    margin-top: -2.5vh;
+    border-radius: 5px;
+}
+
+.comecou>div>input {
+    border-radius: 3px;
+    background-color: #00bfff;
+    height: 40px;
+    width: 150px;
+    font-size: 1.2rem;
+    margin-left: 20%;
+    cursor: pointer;
+    text-shadow: 10px 20px 10px rgb(255, 0, 0);
+    background: rgba(255, 0, 238, 0.659);
+    box-shadow:  8px 5px 0 rgba(0, 204, 255, 0.537);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}

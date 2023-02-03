@@ -1,0 +1,100 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+body>img {
+    margin: 0 10px;
+}
+
+img {
+    max-height: 250px;
+
+}
+
+
+#mural{
+    display: flex;
+    gap: 5%;   
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    max-width: 100%;
+}
+
+#mural:hover .carta{
+    transform: rotateY(180deg);
+    
+}
+
+.carta{
+    max-width: 100%;
+    height: 100%;
+    position: absolute;
+
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    
+
+}
+
+#frente{
+ 
+ backface-visibility: hidden;
+ 
+
+
+}
+
+#back{
+height: 250px;
+width: 250px;
+position: absolute;  
+backface-visibility: hidden;
+background-color: rgb(255, 255, 255);
+transform: rotateY(180deg);
+}
+
+.padrao{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    flex-direction: column-reverse;
+
+}

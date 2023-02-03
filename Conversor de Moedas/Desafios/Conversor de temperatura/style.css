@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    background-image: url("https://images.pexels.com/photos/6932443/pexels-photo-6932443.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 10vh;
+}
+
+.icon{
+   max-width: 10%;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 2em;
+    font-size: 5vh;
+    text-shadow: rgba(252, 252, 252, 0.418) 5px 7px;
+        color: rgb(0, 0, 0)
+        
+}
+
+.page-subtitle {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#number1 {
+    font-family: 'Montserrat', sans-serif;
+    width: 30%;
+    font-size: 3em;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #ff0000;
+}
+
+#result {
+    margin-top: 2em;
+    
+}
+
+.result {
+    font-family: 'Montserrat', sans-serif;
+    color: #8c00ff;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 60px;
+    position: relative;
+    top: 30px;
+}

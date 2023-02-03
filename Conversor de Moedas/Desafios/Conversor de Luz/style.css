@@ -1,0 +1,76 @@
+body {
+    font-family: "Courier New", monospace;
+    min-height: 400px;
+    background-image: url("https://i.pinimg.com/originals/0e/b1/56/0eb15636563ecc2920056a5dd6e496c5.gif");
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.p {
+    margin-top: 100px;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: yellow;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: white;
+}
+
+.page-logo {
+    width: 100px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.Campos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+
+}
+
+.Enviar{
+    margin: 5px;
+    padding: 6px;
+    border-radius: 20px;
+    background: #ff00f7;
+    width: 100px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 1.0s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.Enviar:hover {
+    background-color: #5500ff;
+    /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mostrar{
+    color: #ff00f7;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}

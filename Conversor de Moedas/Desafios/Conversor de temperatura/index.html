@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img class="icon" src="https://imagens.climatempo.com.br/climapress/galeria/2022/09/6dbd6372ec7974d957b4c6dd63caf7dc.jpg" alt="Logotipo da imersão Dev" width="30%" height="100%">
+        <h1 class="page-title">Conversor de Temperaturas</h1>
+        <h2 class="page-subtitle">Coloque o valor em graus Celsius (°C) e você obterá as conversões para a escala Kelvin e
+            Fahrenheint</h2>
+    </div>
+    <div onchange=conversao()>
+        <input type="number" id="number1">
+    </div>
+    <h2 id="result" class="result">
+        Aguardando resultado da conversão de Celsius em Kelvin...
+    </h2>
+    <h2 id="result2" class="result">
+        Aguardando resultado da conversão de Celsius em Fahrenheint...
+    </h2>
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+</body>
+<script src="celsius.js"></script>
+</html>
