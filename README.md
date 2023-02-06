@@ -9,7 +9,7 @@
   <h1  align="center">resultados</h1>
   <hr> 
   
-  <img style=" align-items: center"  align="center" src="https://s9.gifyu.com/images/projeto.md.gif">
+  <img style=" align-items: center"  align="center" src="https://s9.gifyu.com/images/projeto.gif">
   <hr>
  
  ### Tópicos 
