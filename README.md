@@ -1,9 +1,12 @@
-<div style=" margin: auto;
-  display: block;">
- <img style="align-items: center; width:200px; align-itens: center;" src="https://imersao.dev/assets/img/logo-imersao-dev6-desktop.1674580904.png" alt="">
+<div  align="center">
+ <img style=" align-items: center; width:400px; align-items: center;" src="https://imersao.dev/assets/img/logo-imersao-dev6-desktop.1674580904.png" alt="">
+ </div>
  <hr>
  
-  <h5>Status do projeto: ✅</h5>
+ 
+  <h5  align="center">Status do projeto: ✅</h5>
+  
+  <h1  align="center">Status do projeto: ✅</h1>
  
  ### Tópicos 
 
