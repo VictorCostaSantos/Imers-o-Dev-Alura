@@ -1,100 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
 body {
     font-family: "Roboto Mono", monospace;
     text-align: center;
-    background-image: url("https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("https://thumbs.gfycat.com/AccurateEcstaticKillifish-size_restricted.gif");
     background-color: #000000;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
-}
-
-.container {
+  }
+  
+  .container {
     text-align: center;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-content: flex-start;
-    align-items: flex-start;
-}
-
-.page-title {
+  }
+  
+  .page-title {
+    text-align: center;
     color: #ffffff;
-    margin: 0 0 5px;
-}
-
-.page-subtitle {
+    margin: 15px;
+       
+  }
+  
+  .page-subtitle {
     color: #ffffff;
     margin-top: 5px;
-}
-
-.page-logo {
+  }
+  
+  .page-logo {
     width: 200px;
-}
-
-.alura-logo {
+  }
+  
+  .alura-logo {
     width: 40px;
     position: absolute;
     top: 10px;
     right: 10px;
+  }
+  
+ img {
+    max-height: 260px;
+ }
+
+ .imgs{
+    height: 260px ;
+    width: 190px ;
 }
-
-body>img {
-    margin: 0 10px;
-}
-
-img {
-    max-height: 250px;
-
-}
-
-
-#mural{
-    display: flex;
-    gap: 5%;   
-    margin: 10px;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    max-width: 100%;
-}
-
-#mural:hover .carta{
-    transform: rotateY(180deg);
-    
-}
-
-.carta{
-    max-width: 100%;
-    height: 100%;
-    position: absolute;
-
-    transform-style: preserve-3d;
-    transition: all 0.5s ease;
-    
-
-}
-
-#frente{
  
- backface-visibility: hidden;
- 
+ .titulo{
+   
+   text-align: center;
+   margin: 0%;
+   width: 100%;
+   padding: 0%;
+   margin: 0%;
+   font-family: 'Playfair Display', serif;
+   color: #ff0000;
+   background-color: #00000048;   
+   border-radius: 5px;
+ }
 
-
-}
-
-#back{
-height: 250px;
-width: 250px;
-position: absolute;  
-backface-visibility: hidden;
-background-color: rgb(255, 255, 255);
-transform: rotateY(180deg);
-}
-
-.padrao{
-    display: flex;
-    justify-content: center;
-    margin: 5px;
+ .listaFilmes{
+    
+    display: inline-block;
     flex-direction: column-reverse;
+    margin: 1%;
+    max-width: 100%;
 
-}
+ }
+
+ .itens{
+    display: flex;  
+    flex-direction: column-reverse;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    align-items: center;
+ }
+  
+  .form-wrapper img {
+    margin: 0 0 15px;
+  }
+  
+  .form-wrapper input {
+    text-align: center;
+    transition: 1s;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    background: white;
+    font-weight: bold;
+    padding: 8px 20px;
+  }
+  
+  #mensagemDeErro{
+    color: red;
+  }
+  
+
+  
+  .form-wrapper button {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    transition: 1s;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 8px 20px;
+    background: rgb(255, 19, 19);
+    box-shadow: 2px 2px 5px #ffec80;
+  }
+  
+  .form-wrapper button:hover {
+    transition: 0.4s;
+    padding: 8px 35px;
+    background-color: yellow;
+    color: #000000;
+  }
+  .remove{
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    border: solid 1px rgb(255, 0, 43);
+    background: rgb(255, 0, 0);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 0, 0, 0.18);
+    cursor: url(rainbow\ link\ select\ \(static\).cur), default;
+    
+  }
+  
