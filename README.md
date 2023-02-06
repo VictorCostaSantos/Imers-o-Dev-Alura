@@ -9,7 +9,7 @@
   <h1  align="center">resultados</h1>
   <hr> 
   
-  <img align="center" src="blob:https://giphy.com/6c642222-b6b6-4b9e-9237-4fb01f094716">
+  <img align="center" src="https://media2.giphy.com/media/loeOeGRPfQWgtOgevb/giphy.gif?cid=790b76118fda01e4ef7cd2a7ad017d4c6e905c3ac8bc98eb&rid=giphy.gif&ct=g">
   <hr>
  
  ### Tópicos 
