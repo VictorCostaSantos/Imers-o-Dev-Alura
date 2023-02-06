@@ -9,7 +9,7 @@
   <h1  align="center">resultados</h1>
   <hr> 
   
-  <img style=" align-items: center"  align="center" src="https://s9.gifyu.com/images/projeto.gif">
+  <img style=" align-items: center"  align="center" src="https://media.tenor.com/images/be142c7fd7ee2f303bc8c904bbdd8cd9/tenor.gif">
   <hr>
  
  ### Tópicos 
@@ -17,7 +17,6 @@
 🔹 [Sobre a imersão](#sobre-a-imersão)
 
 🔹 [Conhecimentos adquiridos](#conhecimentos-adquiridos)
-
 🔹 [Projetos desenvolvidos](#projetos-desenvolvidos)
 
 🔹 [Como executar](#como-executar)
