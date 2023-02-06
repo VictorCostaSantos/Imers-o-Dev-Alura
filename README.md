@@ -48,7 +48,7 @@ A Imersão é um momento de compartilhar conhecimento, aprender novos conteúdos
  
  - [Alura Flix](https://stellular-custard-e1ee15.netlify.app/)
  - [Mentalista](https://glistening-cobbler-d8199f.netlify.app/)
- - [Km em anos luz](https://github.com/armanoalves/6-imersao-dev/tree/aula-03)
+ - [Km em anos luz](https://precious-cuchufli-1636f5.netlify.app/)
  - [Conversor de temperatura ](https://precious-cuchufli-1636f5.netlify.app/)
  - [Tabela de pontos](https://creative-sopapillas-63092c.netlify.app/)
 
