@@ -7,6 +7,10 @@
   <h5  align="center">Status do projeto: ✅</h5>
   
   <h1  align="center">resultados</h1>
+  <hr> 
+  
+  <img align="center" src="blob:https://giphy.com/6c642222-b6b6-4b9e-9237-4fb01f094716">
+  <hr>
  
  ### Tópicos 
 
