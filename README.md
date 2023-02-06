@@ -9,7 +9,7 @@
   <h1  align="center">resultados</h1>
   <hr> 
   
-  <img style=" align-items: center"  align="center" src="https://media2.giphy.com/media/loeOeGRPfQWgtOgevb/giphy.gif?cid=790b76118fda01e4ef7cd2a7ad017d4c6e905c3ac8bc98eb&rid=giphy.gif&ct=g">
+  <img style=" align-items: center"  align="center" src="https://tenor.com/ea20a111-aa37-426d-ae64-36e31a3caed0">
   <hr>
  
  ### Tópicos 
