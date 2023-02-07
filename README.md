@@ -9,7 +9,7 @@
   <h1  align="center">resultados</h1>
   <hr> 
   
-  <img style=" width:1000px; align-items: center"  align="center" src="https://imgur.com/uJtTlc5">
+  <img style=" width:1000px; align-items: center"  align="center" src="tabela de pontos/projetos.gif">
   <hr>
  
  ### Tópicos 
