@@ -9,7 +9,9 @@
   <h1  align="center">resultados</h1>
   <hr> 
   
-   <img style="align-items: center"  align="center" src="https://i.imgur.com/gOZ3yeD.gif">
+  <div align="center">
+   <img  src="https://i.imgur.com/gOZ3yeD.gif">
+ </div>
   <hr>
  
  ### Tópicos 
